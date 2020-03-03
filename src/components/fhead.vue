@@ -5,7 +5,7 @@
               <el-col :span="24">
                   <router-link to="/">
                      <img class="img" src="./../assets/ndx-logo.png"/>
-                     <div class="logoTxt">nDEX Portal | NDX Block Explorer</div>
+                     <div class="logoTxt"> nDEX Portal | NDX Block Explorer </div>
                   </router-link>
                   <el-dropdown class="el_dropdown" @command="handleCommand">
                       <span class="el-dropdown-link">
@@ -72,7 +72,7 @@
 body {
     font: 400 1rem/1.625rem "Cabin", sans-serif;
     margin: 0;
-    background: #f3f7ff;
+    background: #13182d;
 }
 
 a {
@@ -81,7 +81,7 @@ a {
 }
 
 .el_head{
-    background-color: #1852b7 !important;
+    background-color: #202644 !important;
     box-shadow: 0 1px 0px rgba(0,0,0,0.12), 0 1px 1px rgba(0,0,0,0.24)!important;
 .el-dropdown-link{
     color: #fff;
@@ -98,6 +98,7 @@ a {
 .el-card.is-always-shadow, .el-card.is-hover-shadow:focus, .el-card.is-hover-shadow:hover {
     -webkit-box-shadow: 0 2px 12px 0 rgba(0,0,0,.1);
     box-shadow: 0 2px 12px 0 rgba(0,0,0,.1);
-    border-radius: 10px;
+    border-radius: 10px; background-color: #202644;
+
 }
-</style>  
+</style> 

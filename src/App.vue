@@ -54,9 +54,9 @@ export default {
     word-break: normal;
   }
   .footer{
-    background: #FAFAFA;line-height: 60px;text-align: center;color: #606266;
+    background: #13182d;line-height: 60px;text-align: center;color: #9a9fb3;
     a{
-      color: #606266
+      color: #2876ff
     }
   }
   .center{
