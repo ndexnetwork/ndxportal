@@ -1,2 +1,2 @@
-# HEBE-BlockExplorer
-HEBE Block Browser: Supports HEBE, NXT,ACTN,RYA
+nDEXPortal | NDX Blockchain Explorer
+https://portal.ndexnetwork.com
