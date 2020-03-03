@@ -1,8 +1,10 @@
 {
   "name": "ndex-block-explorer",
   "version": "1.0.0",
-  "description": "A Vue.js project",
+  "description": "A public project for NDX Blockchain",
   "author": "T Rahaman - GPG key: 75CEBDE82D6BECC940EC0D22B3E38C4A2BBDBA1E, JK. Reddy - GPG key: 5A64F654EA76AB1BAC428B88B529CC16E00EB274",
+  "license": "MIT",
+  "keywords": "ndx, ndex, blockchain, ndex network",
   "private": true,
   "scripts": {
     "dev": "webpack-dev-server --inline --progress --config build/webpack.dev.conf.js",

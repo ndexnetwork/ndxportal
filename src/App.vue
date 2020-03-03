@@ -12,7 +12,7 @@ export default {
         if(type) {
           type=type.toLowerCase()
           if(type=='ndx'){
-              this.$store.state.api='http://seed.npay.life/nxt?'
+              this.$store.state.api='https://seed.npay.life/nxt?'
               this.$store.state.apiText="NDX"
           }
           if(type=='nxt'){

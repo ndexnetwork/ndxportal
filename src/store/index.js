@@ -5,7 +5,7 @@ Vue.use(Vuex)
 export default new Vuex.Store({
     state:{
         epochBeginning:"",
-        api:'http://ndxworld.npay.life/nxt?',
+        api:'https://seed.npay.life/nxt?',
         apiText:'NDX'
     }
 })
