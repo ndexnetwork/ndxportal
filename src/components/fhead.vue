@@ -4,7 +4,7 @@
           <el-row type="flex">
               <el-col :span="24">
                   <router-link to="/">
-                     <img class="img" src="./../assets/logo2.png"/>
+                     <img class="img" src="./../assets/ndx-logo.png"/>
                      <div class="logoTxt">nDEX Portal | NDX Block Explorer</div>
                   </router-link>
                   <el-dropdown class="el_dropdown" @command="handleCommand">
@@ -69,21 +69,35 @@
 
 
 <style  lang="less">
-    a{
-        text-decoration: none !important;
-        color: #606266;
-    }
-    .el_head{
-        background-color: #1852b7 !important;
-        box-shadow: 0 1px 0px rgba(0,0,0,0.12), 0 1px 1px rgba(0,0,0,0.24)!important;
-        .el-dropdown-link{
-            color: #fff;
-        }
-        .el_dropdown{
-            margin-top: 25px;margin-left: 20px;
+body {
+    font: 400 1rem/1.625rem "Cabin", sans-serif;
+    margin: 0;
+    background: #f3f7ff;
+}
 
-        }
-        .img{float: left;width: 40px;margin-top: 10px;}
-        .logoTxt{font-weight: bold;font-size: 20px;float: left;color: #fff;margin-top: 20px;}
-    }
+a {
+    text-decoration: none !important;
+    color: #606266;
+}
+
+.el_head{
+    background-color: #1852b7 !important;
+    box-shadow: 0 1px 0px rgba(0,0,0,0.12), 0 1px 1px rgba(0,0,0,0.24)!important;
+.el-dropdown-link{
+    color: #fff;
+}
+
+.el_dropdown{
+    margin-top: 25px;margin-left: 20px;
+}
+
+.img{float: left;width: 40px;margin-top: 10px;}
+
+.logoTxt{font-weight: bold;font-size: 20px;float: left;color: #fff;margin-top: 20px;}
+}
+.el-card.is-always-shadow, .el-card.is-hover-shadow:focus, .el-card.is-hover-shadow:hover {
+    -webkit-box-shadow: 0 2px 12px 0 rgba(0,0,0,.1);
+    box-shadow: 0 2px 12px 0 rgba(0,0,0,.1);
+    border-radius: 10px;
+}
 </style>  
