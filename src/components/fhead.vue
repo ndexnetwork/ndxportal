@@ -5,7 +5,7 @@
               <el-col :span="24">
                   <router-link to="/">
                      <img class="img" src="./../assets/logo2.png"/>
-                     <div class="logoTxt">nDEXPortal | NDX Block Explorer</div>
+                     <div class="logoTxt">nDEX Portal | NDX Block Explorer</div>
                   </router-link>
                   <el-dropdown class="el_dropdown" @command="handleCommand">
                       <span class="el-dropdown-link">
@@ -51,7 +51,7 @@
                 }
             },
             search(){
-                this.$prompt('Please enter account address / block height', 'Prompt', {
+                this.$prompt('Please Enter Account Address / Block Height', 'Prompt', {
                     confirmButtonText: 'Confirm',
                     cancelButtonText: 'Cancel',
                 }).then(({ value }) => {

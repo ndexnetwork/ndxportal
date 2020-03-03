@@ -4,7 +4,7 @@
         <el-main >
             <el-breadcrumb class="center" separator-class="el-icon-arrow-right">
                 <el-breadcrumb-item :to="{ path: '/' }">Home</el-breadcrumb-item>
-                <el-breadcrumb-item>Account address</el-breadcrumb-item>
+                <el-breadcrumb-item>Account Address</el-breadcrumb-item>
             </el-breadcrumb>
             <el-card  v-loading="loading" class="box-card center" style="margin-top: 16px">
                 <div slot="header" class="clearfix">
@@ -12,13 +12,13 @@
                 </div>
 
                 <el-form  size="mini"  label-width="100px" >
-                    <el-form-item label="Account id">
+                    <el-form-item label="Account ID">
                         {{accounts.account}}
                     </el-form-item>
                     <el-form-item v-if="accounts.name" label="Account Name">
                         {{accounts.name}}
                     </el-form-item>
-                    <el-form-item label="Account address">
+                    <el-form-item label="Account Address">
                         {{accounts.accountRS}}
                     </el-form-item>
                     <el-form-item label="Account Public Key">

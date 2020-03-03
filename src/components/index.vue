@@ -43,7 +43,7 @@
                   </template>
                 </el-table-column>
                 <el-table-column
-                        label="Handling Fee"
+                        label="Fee"
                         width="180">
                   <template slot-scope="scope">
                     {{$g.wallet.amount(scope.row.feeNQT)}}
@@ -70,7 +70,7 @@
             </template>
           </el-table-column>
           <el-table-column
-                  label="Number of Tx"
+                  label="Number of TX"
                   width="180">
             <template slot-scope="scope">
               {{$g.wallet.amount(scope.row.totalAmountNQT)}}
@@ -89,7 +89,7 @@
                   width="80">
           </el-table-column>
           <el-table-column
-                  label="Block Producer"
+                  label="Block Generator"
                   width="280">
             <template slot-scope="scope">
               <router-link :to="'/account/'+scope.row.generatorRS">

@@ -3,51 +3,51 @@
         <fhead></fhead>
         <el-main >
             <el-breadcrumb class="center" separator-class="el-icon-arrow-right">
-                <el-breadcrumb-item :to="{ path: '/' }">首页</el-breadcrumb-item>
-                <el-breadcrumb-item :to="{ path: '/blocks' }">所有区块</el-breadcrumb-item>
-                <el-breadcrumb-item>区块高度</el-breadcrumb-item>
+                <el-breadcrumb-item :to="{ path: '/' }">Home</el-breadcrumb-item>
+                <el-breadcrumb-item :to="{ path: '/blocks' }">All Blocks</el-breadcrumb-item>
+                <el-breadcrumb-item>Block Height</el-breadcrumb-item>
             </el-breadcrumb>
             <el-card  v-loading="loading" class="box-card center" style="margin-top: 16px">
                 <div slot="header" class="clearfix">
                     <span>{{height}}</span>
-                    <el-button @click="update(0)" style="float: right; padding: 3px 0" type="text">下一个区块</el-button>
-                    <el-button @click="update(1)" style="float: right; padding: 3px 0;margin-right: 20px" type="text">上一个区块</el-button>
+                    <el-button @click="update(0)" style="float: right; padding: 3px 0" type="text">Next Block</el-button>
+                    <el-button @click="update(1)" style="float: right; padding: 3px 0;margin-right: 20px" type="text">Prev Block</el-button>
                 </div>
 
                 <el-form  size="mini"  label-width="100px" >
-                    <el-form-item label="区块id">
+                    <el-form-item label="Block ID">
                         {{Blocks.block}}
                     </el-form-item>
-                    <el-form-item label="区块高度">
+                    <el-form-item label="Block Height">
                         {{Blocks.height}}
                     </el-form-item>
-                    <el-form-item label="区块时间">
+                    <el-form-item label="Block Time">
                         {{$g.wallet.formatDateTime(Blocks.timestamp*1000+($store.state.epochBeginning-500))}}
                     </el-form-item>
-                    <el-form-item label="区块锻造者">
+                    <el-form-item label="Block Time">
                         <router-link :to="'/account/'+Blocks.generatorRS">
                             <el-button style="font-size: 14px" type="text"> {{Blocks.generatorRS}}</el-button>
                         </router-link>
                     </el-form-item>
-                    <el-form-item label="区块交易数">
+                    <el-form-item label="Number of Block Transactions">
                         {{Blocks.transactions.length}}
                     </el-form-item>
-                    <el-form-item label="总转账数量">
+                    <el-form-item label="Total Transfers">
                         {{$g.wallet.amount(Blocks.totalAmountNQT)}}
                     </el-form-item>
-                    <el-form-item label="区块交易费">
+                    <el-form-item label="Block Transaction Fee">
                         {{$g.wallet.amount(Blocks.totalFeeNQT)}}
                     </el-form-item>
                 </el-form>
 
                 <el-collapse v-model="activeNames">
-                    <el-collapse-item title="交易信息列表" name="1">
+                    <el-collapse-item title="Transaction Information List" name="1">
                         <el-table
                                 :data="Blocks.transactions"
                                 border
                                 style="width: 100%">
                             <el-table-column
-                                    label="发送地址"
+                                    label="Sending address"
                                     width="280">
                                 <template slot-scope="scope">
                                     <router-link :to="'/account/'+scope.row.senderRS">
@@ -56,7 +56,7 @@
                                 </template>
                             </el-table-column>
                             <el-table-column
-                                    label="接收地址"
+                                    label="Receiving Address"
                                     width="280">
                                 <template slot-scope="scope">
                                     <router-link :to="'/account/'+scope.row.recipientRS">
@@ -65,14 +65,14 @@
                                 </template>
                             </el-table-column>
                             <el-table-column
-                                    label="数量"
+                                    label="Quantity"
                                     width="180">
                                 <template slot-scope="scope">
                                     {{$g.wallet.amount(scope.row.amountNQT)}}
                                 </template>
                             </el-table-column>
                             <el-table-column
-                                    label="手续费"
+                                    label="Fees"
                                     width="180">
                                 <template slot-scope="scope">
                                     {{$g.wallet.amount(scope.row.feeNQT)}}
@@ -84,8 +84,8 @@
             </el-card>
         </el-main>
         <el-footer class="footer">
-            COPYRIGHT © 2018. ALL RIGHTS RESERVED. DESIGNED BY
-            <a target="_blank" href="https://nexbit.io/">NEXBIT</a>
+            COPYRIGHT © 2018-2020. ALL RIGHTS RESERVED. DESIGNED BY
+            <a target="_blank" href="https://ndexnetwork.com/">nDEX Network Ltd.</a>
         </el-footer>
     </el-container>
 </template>
@@ -135,8 +135,8 @@
                 })
                     .then(response => {
                     if(response.errorCode){
-                        this.$alert('高度错误', '提示', {
-                            confirmButtonText: '确定',
+                        this.$alert('Height Error', 'Prompt', {
+                            confirmButtonText: 'Determine',
                             callback: action => {
                                 this.$router.replace('/blocks');
                             }

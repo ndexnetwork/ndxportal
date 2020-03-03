@@ -8,7 +8,7 @@
             </el-breadcrumb>
             <el-card class="box-card center" style="margin-top: 16px">
                 <div slot="header" class="clearfix">
-                    <span>Forging Pool<span style="color: rgb(144, 147, 153);">（before 30）</span></span>
+                    <span>Forging Pool<span style="color: rgb(144, 147, 153);">（Before 30）</span></span>
                 </div>
                 <el-table class="center"
                           v-loading="GeneratorsLoading"

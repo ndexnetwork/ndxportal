@@ -3,12 +3,12 @@
         <fhead></fhead>
         <el-main >
             <el-breadcrumb class="center" separator-class="el-icon-arrow-right">
-                <el-breadcrumb-item :to="{ path: '/' }">首页</el-breadcrumb-item>
-                <el-breadcrumb-item>节点</el-breadcrumb-item>
+                <el-breadcrumb-item :to="{ path: '/' }">Home</el-breadcrumb-item>
+                <el-breadcrumb-item>Node</el-breadcrumb-item>
             </el-breadcrumb>
             <el-card class="box-card center" style="margin-top: 16px">
                 <div slot="header" class="clearfix">
-                    <span>节点 <span style="color: rgb(144, 147, 153);">（对等网络 {{peers.length}}，非全部节点）</span></span>
+                    <span>Node <span style="color: rgb(144, 147, 153);">（Peer-to-Peer Network {{peers.length}}，Not all nodes）</span></span>
                 </div>
                 <el-table class="center"
                           v-loading="peersLoading"
@@ -25,21 +25,21 @@
                     </el-table-column>
                     <el-table-column
                             prop="address"
-                            label="IP地址"
+                            label="IP Address"
                             width="180">
                     </el-table-column>
                     <el-table-column
                             prop="version"
-                            label="客户端版本"
+                            label="Client Version"
                             width="180">
                     </el-table-column>
                     <el-table-column
                             prop="platform"
-                            label="平台/所有者"
+                            label="Platform / Owner"
                             width="280">
                     </el-table-column>
                     <el-table-column
-                            label="服务"
+                            label="Service"
                             width="320">
                         <template slot-scope="scope">
                             {{scope.row.services.toString()}}
@@ -47,7 +47,7 @@
                     </el-table-column>
 
                     <el-table-column
-                            label="最近更新时间">
+                            label="Last Updated">
                         <template slot-scope="scope">
                             {{$g.wallet.formatDateTime(scope.row.lastUpdated*1000+($store.state.epochBeginning-500))}}
                         </template>
@@ -56,8 +56,8 @@
             </el-card>
         </el-main>
         <el-footer class="footer">
-            COPYRIGHT © 2018. ALL RIGHTS RESERVED. DESIGNED BY
-            <a target="_blank" href="https://nexbit.io/">NEXBIT</a>
+            COPYRIGHT © 2018-2020. ALL RIGHTS RESERVED. DESIGNED BY
+            <a target="_blank" href="https://ndexnetwork.com/">nDEX Network Ltd.</a>
         </el-footer>
     </el-container>
 </template>

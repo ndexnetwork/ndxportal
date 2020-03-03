@@ -3,12 +3,12 @@
         <fhead></fhead>
         <el-main >
             <el-breadcrumb class="center" separator-class="el-icon-arrow-right">
-                <el-breadcrumb-item :to="{ path: '/' }">首页</el-breadcrumb-item>
-                <el-breadcrumb-item>所有区块</el-breadcrumb-item>
+                <el-breadcrumb-item :to="{ path: '/' }">Home</el-breadcrumb-item>
+                <el-breadcrumb-item>All Blocks</el-breadcrumb-item>
             </el-breadcrumb>
             <el-card class="box-card center" style="margin-top: 16px">
                 <div slot="header" class="clearfix">
-                    <span>区块</span>
+                    <span>Block</span>
                 </div>
                 <el-table class="center"
                           v-loading="BlocksLoading"
@@ -22,7 +22,7 @@
                                     border
                                     style="width: 100%">
                                 <el-table-column
-                                        label="发送地址"
+                                        label="Sending Address"
                                         width="280">
                                     <template slot-scope="scope">
                                         <router-link :to="'/account/'+scope.row.senderRS">
@@ -31,7 +31,7 @@
                                     </template>
                                 </el-table-column>
                                 <el-table-column
-                                        label="接收地址"
+                                        label="Receiving Address"
                                         width="280">
                                     <template slot-scope="scope">
                                         <router-link :to="'/account/'+scope.row.recipientRS">
@@ -40,14 +40,14 @@
                                     </template>
                                 </el-table-column>
                                 <el-table-column
-                                        label="数量"
+                                        label="Quantity"
                                         width="180">
                                     <template slot-scope="scope">
                                         {{$g.wallet.amount(scope.row.amountNQT)}}
                                     </template>
                                 </el-table-column>
                                 <el-table-column
-                                        label="手续费">
+                                        label="Fees">
                                     <template slot-scope="scope">
                                         {{$g.wallet.amount(scope.row.feeNQT)}}
                                     </template>
@@ -56,7 +56,7 @@
                         </template>
                     </el-table-column>
                     <el-table-column
-                            label="高度"
+                            label="Height"
                             width="140">
                         <template  slot-scope="scope">
                             <router-link :to="'/block/'+scope.row.height">
@@ -66,25 +66,25 @@
                     </el-table-column>
                     <el-table-column
                             prop="block"
-                            label="区块id"
+                            label="Block ID"
                             width="200">
                     </el-table-column>
                     <el-table-column
-                            label="时间"
+                            label="Block Time"
                             width="180">
                         <template slot-scope="scope">
                             {{$g.wallet.formatDateTime(scope.row.timestamp*1000+($store.state.epochBeginning-500))}}
                         </template>
                     </el-table-column>
                     <el-table-column
-                            label="总转账数量"
+                            label="Total Transfers"
                             width="180">
                         <template slot-scope="scope">
                             {{$g.wallet.amount(scope.row.totalAmountNQT)}}
                         </template>
                     </el-table-column>
                     <el-table-column
-                            label="交易费"
+                            label="Transaction Fee"
                             width="120">
                         <template slot-scope="scope">
                             {{$g.wallet.amount(scope.row.totalFeeNQT)}}
@@ -92,12 +92,12 @@
                     </el-table-column>
                     <el-table-column
                             prop="transactions.length"
-                            label="交易数"
+                            label="Number of Transactions"
                             width="80">
                     </el-table-column>
                     <el-table-column
                             prop="generatorRS"
-                            label="出块者"
+                            label="Block Generator"
                             width="280">
                         <template slot-scope="scope">
                             <router-link :to="'/account/'+scope.row.generatorRS">
@@ -117,8 +117,8 @@
             </el-card>
         </el-main>
         <el-footer class="footer">
-            COPYRIGHT © 2018. ALL RIGHTS RESERVED. DESIGNED BY
-            <a target="_blank" href="https://NDX.com/">NDX</a>
+            COPYRIGHT © 2018-2020. ALL RIGHTS RESERVED. DESIGNED BY
+            <a target="_blank" href="https://ndexnetwork.com/">nDEX Network Ltd.</a>
         </el-footer>
     </el-container>
 </template>
