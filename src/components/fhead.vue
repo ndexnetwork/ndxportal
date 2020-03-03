@@ -51,7 +51,7 @@
                 }
             },
             search(){
-                this.$prompt('Please Enter Account Address / Block Height', 'Prompt', {
+                this.$prompt('Please Enter Account Address / Block Height', 'Search', {
                     confirmButtonText: 'Confirm',
                     cancelButtonText: 'Cancel',
                 }).then(({ value }) => {
@@ -74,7 +74,7 @@
         color: #606266;
     }
     .el_head{
-        background-color: #2196F3 !important;
+        background-color: #1852b7 !important;
         box-shadow: 0 1px 0px rgba(0,0,0,0.12), 0 1px 1px rgba(0,0,0,0.24)!important;
         .el-dropdown-link{
             color: #fff;

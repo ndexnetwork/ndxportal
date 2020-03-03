@@ -47,7 +47,7 @@
                                 border
                                 style="width: 100%">
                             <el-table-column
-                                    label="Sending address"
+                                    label="Sending Address"
                                     width="280">
                                 <template slot-scope="scope">
                                     <router-link :to="'/account/'+scope.row.senderRS">
