@@ -4254,7 +4254,7 @@
 .el-breadcrumb__item:last-child .el-breadcrumb__inner a:hover,
 .el-breadcrumb__item:last-child .el-breadcrumb__inner:hover {
     font-weight: 400;
-    color: #e6e9ef;
+    color: #ffffff;
     cursor: text
 }
 
@@ -4263,44 +4263,50 @@
 }
 
 .el-form--label-left .el-form-item__label {
-    text-align: left
+    text-align: left;
+    color: #ffffff;
 }
 
 .el-form--label-top .el-form-item__label {
     float: none;
     display: inline-block;
     text-align: left;
-    padding: 0 0 10px
+    padding: 0 0 10px;
+   color: #ffffff;
 }
 
 .el-form--inline .el-form-item {
     display: inline-block;
     margin-right: 10px;
-    vertical-align: top
+    vertical-align: top;
+    color: #ffffff;
 }
 
 .el-form--inline .el-form-item__label {
     float: none;
-    display: inline-block
+    display: inline-block;
+    color: #ffffff;
 }
 
 .el-form--inline .el-form-item__content {
     display: inline-block;
-    vertical-align: top
+    vertical-align: top;
+    color: #ffffff;
 }
 
 .el-form-item__content .el-input-group,
 .el-form-item__label,
 .el-tag .el-icon-close {
-    vertical-align: middle
+    vertical-align: middle;
 }
 
 .el-form--inline.el-form--label-top .el-form-item__content {
-    display: block
+    display: block;
+    color: #ffffff;
 }
 
 .el-form-item {
-    margin-bottom: 22px
+    margin-bottom: 22px;
 }
 
 .el-form-item::after,
@@ -4310,7 +4316,7 @@
 }
 
 .el-form-item::after {
-    clear: both
+    clear: both;
 }
 
 .el-form-item .el-form-item {
@@ -4319,11 +4325,11 @@
 
 .el-form-item--mini.el-form-item,
 .el-form-item--small.el-form-item {
-    margin-bottom: 18px
+    margin-bottom: 18px;
 }
 
 .el-form-item .el-input__validateIcon {
-    display: none
+    display: none;
 }
 
 .el-form-item--medium .el-form-item__content,
@@ -4353,23 +4359,25 @@
     text-align: right;
     float: left;
     font-size: 14px;
-    color: #e6e9ef;
+    color: #ffffff;
     line-height: 40px;
     padding: 0 12px 0 0;
     -webkit-box-sizing: border-box;
-    box-sizing: border-box
+    box-sizing: border-box;
 }
 
 .el-form-item__content {
     line-height: 40px;
     position: relative;
-    font-size: 14px
+    font-size: 14px;
+    color: #ffffff;
 }
 
 .el-form-item__content::after,
 .el-form-item__content::before {
     display: table;
-    content: ""
+    content: "";
+    color: #ffffff;
 }
 
 .el-form-item__content::after {
@@ -4377,7 +4385,7 @@
 }
 
 .el-form-item__error {
-    color: #f56c6c;
+   color: #ffffff;
     font-size: 12px;
     line-height: 1;
     padding-top: 4px;
@@ -4396,7 +4404,7 @@
 
 .el-form-item.is-required .el-form-item__label:before {
     content: '*';
-    color: #f56c6c;
+   color: #ffffff;
     margin-right: 4px
 }
 
@@ -9617,11 +9625,13 @@
     padding: 18px 20px;
     border-bottom: 1px solid #3b4471;
     -webkit-box-sizing: border-box;
-    box-sizing: border-box
+    box-sizing: border-box;
+    color: #ffffff;
 }
 
 .el-card__body {
-    padding: 20px
+    padding: 20px;
+    color: #ffffff;
 }
 
 .el-rate {
