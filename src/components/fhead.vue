@@ -96,8 +96,8 @@ a {
 .logoTxt{font-weight: bold;font-size: 16px;float: left;color: #fff;margin: 5px;}
 }
 .el-card.is-always-shadow, .el-card.is-hover-shadow:focus, .el-card.is-hover-shadow:hover {
-    -webkit-box-shadow: 0 2px 12px 0 rgba(0,0,0,.1);
-    box-shadow: 0 2px 12px 0 rgba(0,0,0,.1);
+    -webkit-box-shadow: 2px 2px 12px 3px rgba(0,0,0,.1);
+    box-shadow: 0 2px 12px 0 rgba(0,0,0,.4);
     border-radius: 10px; background-color: #202644;
 
 }
