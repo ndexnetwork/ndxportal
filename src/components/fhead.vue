@@ -5,11 +5,11 @@
               <el-col :span="24">
                   <router-link to="/">
                      <img class="img" src="./../assets/ndx-logo.png"/>
-                     <div class="logoTxt"> nDEX Portal | NDX Block Explorer </div>
+                     <div class="logoTxt"> nDEX Portal <br> NDX Block Explorer </div>
                   </router-link>
                   <el-dropdown class="el_dropdown" @command="handleCommand">
                       <span class="el-dropdown-link">
-                        {{$store.state.apiText}}Block Browser<i class="el-icon-arrow-down el-icon--right"></i>
+                        {{$store.state.apiText}}Block<i class="el-icon-arrow-down el-icon--right"></i>
                       </span>
                       <el-dropdown-menu slot="dropdown">
                           <el-dropdown-item command="blocks">Blocks</el-dropdown-item>
@@ -93,7 +93,7 @@ a {
 
 .img{float: left;width: 40px;margin-top: 10px;}
 
-.logoTxt{font-weight: bold;font-size: 20px;float: left;color: #fff;margin-top: 20px;}
+.logoTxt{font-weight: bold;font-size: 16px;float: left;color: #fff;margin: 5px;}
 }
 .el-card.is-always-shadow, .el-card.is-hover-shadow:focus, .el-card.is-hover-shadow:hover {
     -webkit-box-shadow: 0 2px 12px 0 rgba(0,0,0,.1);

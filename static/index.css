@@ -352,7 +352,7 @@
 .el-pagination {
     white-space: nowrap;
     padding: 2px 5px;
-    color: #303133;
+    color: #e6e9ef;
     font-weight: 700
 }
 
@@ -433,7 +433,7 @@
     background-size: 16px;
     cursor: pointer;
     margin: 0;
-    color: #303133
+    color: #e6e9ef
 }
 
 .el-pagination .btn-next .el-icon,
@@ -494,7 +494,7 @@
 .el-pagination__sizes {
     margin: 0 10px 0 0;
     font-weight: 400;
-    color: #dadee6
+    color: #e6e9ef
 }
 
 .el-pagination__sizes .el-input .el-input__inner {
@@ -509,13 +509,13 @@
 .el-pagination__total {
     margin-right: 10px;
     font-weight: 400;
-    color: #dadee6
+    color: #e6e9ef
 }
 
 .el-pagination__jump {
     margin-left: 24px;
     font-weight: 400;
-    color: #dadee6
+    color: #e6e9ef
 }
 
 .el-pagination__jump .el-input__inner {
@@ -560,7 +560,7 @@
 .el-pagination.is-background .el-pager li {
     margin: 0 5px;
     background-color: #f4f4f5;
-    color: #dadee6;
+    color: #e6e9ef;
     min-width: 30px;
     border-radius: 2px
 }
@@ -644,7 +644,7 @@
 .el-pager li.btn-quicknext,
 .el-pager li.btn-quickprev {
     line-height: 28px;
-    color: #303133
+    color: #e6e9ef
 }
 
 .el-pager li.btn-quicknext.disabled,
@@ -734,12 +734,12 @@
 .el-dialog__title {
     line-height: 24px;
     font-size: 18px;
-    color: #303133
+    color: #e6e9ef
 }
 
 .el-dialog__body {
     padding: 30px 20px;
-    color: #dadee6;
+    color: #e6e9ef;
     font-size: 14px
 }
 
@@ -863,7 +863,7 @@
     margin: 0;
     line-height: 34px;
     cursor: pointer;
-    color: #dadee6;
+    color: #e6e9ef;
     font-size: 14px;
     list-style: none;
     white-space: nowrap;
@@ -911,7 +911,7 @@
 .el-dropdown {
     display: inline-block;
     position: relative;
-    color: #dadee6;
+    color: #e6e9ef;
     font-size: 14px
 }
 
@@ -978,7 +978,7 @@
     padding: 0 20px;
     margin: 0;
     font-size: 14px;
-    color: #dadee6;
+    color: #e6e9ef;
     cursor: pointer;
     outline: 0
 }
@@ -1127,12 +1127,12 @@
 
 .el-menu--horizontal>.el-submenu:focus .el-submenu__title,
 .el-menu--horizontal>.el-submenu:hover .el-submenu__title {
-    color: #303133
+    color: #e6e9ef
 }
 
 .el-menu--horizontal>.el-submenu.is-active .el-submenu__title {
     border-bottom: 2px solid #409EFF;
-    color: #303133
+    color: #e6e9ef
 }
 
 .el-menu--horizontal>.el-submenu .el-submenu__title {
@@ -1161,18 +1161,18 @@
 
 .el-menu--horizontal .el-menu .el-menu-item.is-active,
 .el-menu--horizontal .el-menu .el-submenu__title.is-active {
-    color: #303133
+    color: #e6e9ef
 }
 
 .el-menu--horizontal .el-menu-item:not(.is-disabled):focus,
 .el-menu--horizontal .el-menu-item:not(.is-disabled):hover {
     outline: 0;
-    color: #303133
+    color: #e6e9ef
 }
 
 .el-menu--horizontal>.el-menu-item.is-active {
     border-bottom: 2px solid #409EFF;
-    color: #303133
+    color: #e6e9ef
 }
 
 .el-menu--collapse {
@@ -1254,7 +1254,7 @@
 
 .el-menu-item {
     font-size: 14px;
-    color: #303133;
+    color: #e6e9ef;
     padding: 0 20px;
     cursor: pointer;
     -webkit-transition: border-color .3s, background-color .3s, color .3s;
@@ -1306,7 +1306,7 @@
 
 .el-submenu__title {
     font-size: 14px;
-    color: #303133;
+    color: #e6e9ef;
     padding: 0 20px;
     cursor: pointer;
     -webkit-transition: border-color .3s, background-color .3s, color .3s;
@@ -1415,7 +1415,7 @@
 }
 
 .el-radio {
-    color: #dadee6;
+    color: #e6e9ef;
     font-weight: 500;
     line-height: 1;
     cursor: pointer;
@@ -1621,7 +1621,7 @@
     border: 1px solid #dcdfe6;
     font-weight: 500;
     border-left: 0;
-    color: #dadee6;
+    color: #e6e9ef;
     -webkit-appearance: none;
     text-align: center;
     box-sizing: border-box;
@@ -1762,7 +1762,7 @@
     font-size: 14px;
     font-weight: 500;
     vertical-align: middle;
-    color: #303133
+    color: #e6e9ef
 }
 
 .el-switch__label.is-active {
@@ -1927,7 +1927,7 @@
     white-space: nowrap;
     overflow: hidden;
     text-overflow: ellipsis;
-    color: #dadee6;
+    color: #e6e9ef;
     height: 34px;
     line-height: 34px;
     -webkit-box-sizing: border-box;
@@ -2159,7 +2159,7 @@
     width: 100%;
     max-width: 100%;
     font-size: 14px;
-    color: #dadee6
+    color: #e6e9ef
 }
 
 .el-table--mini,
@@ -2509,7 +2509,7 @@
 .el-table__fixed-footer-wrapper tbody td {
     border-top: 1px solid #3b4471;
     background-color: #f5f7fa;
-    color: #dadee6
+    color: #e6e9ef
 }
 
 .el-table__fixed-body-wrapper {
@@ -2549,7 +2549,7 @@
 .el-table__footer-wrapper tbody td,
 .el-table__header-wrapper tbody td {
     background-color: #f5f7fa;
-    color: #dadee6
+    color: #e6e9ef
 }
 
 .el-table__body-wrapper {
@@ -2625,7 +2625,7 @@
 }
 
 .el-table--striped .el-table__body tr.el-table__row--striped td {
-    background: #FAFAFA
+    background: #202644
 }
 
 .el-table--striped .el-table__body tr.el-table__row--striped.current-row td,
@@ -2726,7 +2726,7 @@
 .el-table-filter__bottom button {
     background: 0 0;
     border: none;
-    color: #dadee6;
+    color: #e6e9ef;
     cursor: pointer;
     font-size: 13px;
     padding: 0 3px
@@ -2779,7 +2779,7 @@
 }
 
 .el-date-table.is-week-mode .el-date-table__row:hover td.available:hover {
-    color: #dadee6
+    color: #e6e9ef
 }
 
 .el-date-table.is-week-mode .el-date-table__row:hover td:first-child div {
@@ -2920,7 +2920,7 @@
 
 .el-date-table td.week {
     font-size: 80%;
-    color: #dadee6
+    color: #e6e9ef
 }
 
 .el-month-table,
@@ -2931,7 +2931,7 @@
 
 .el-date-table th {
     padding: 5px;
-    color: #dadee6;
+    color: #e6e9ef;
     font-weight: 400;
     border-bottom: solid 1px #ebeef5
 }
@@ -2957,7 +2957,7 @@
 }
 
 .el-month-table td .cell {
-    color: #dadee6;
+    color: #e6e9ef;
     margin: 0 auto
 }
 
@@ -2971,7 +2971,7 @@
 }
 
 .el-year-table .el-icon {
-    color: #303133
+    color: #e6e9ef
 }
 
 .el-year-table td {
@@ -2991,7 +2991,7 @@
 }
 
 .el-year-table td .cell {
-    color: #dadee6;
+    color: #e6e9ef;
     margin: 0 auto
 }
 
@@ -3084,7 +3084,7 @@
     font-size: 20px;
     vertical-align: middle;
     display: table-cell;
-    color: #303133
+    color: #e6e9ef
 }
 
 .el-date-range-picker__time-picker-wrap {
@@ -3165,7 +3165,7 @@
     line-height: 22px;
     text-align: center;
     cursor: pointer;
-    color: #dadee6
+    color: #e6e9ef
 }
 
 .el-date-picker__header-label.active,
@@ -3401,7 +3401,7 @@
     outline: 0;
     padding: 0;
     width: 39%;
-    color: #dadee6
+    color: #e6e9ef
 }
 
 .el-date-editor .el-range-input::-webkit-input-placeholder {
@@ -3420,7 +3420,7 @@
     padding: 0 5px;
     line-height: 32px;
     width: 5%;
-    color: #303133
+    color: #e6e9ef
 }
 
 .el-date-editor .el-range__close-icon {
@@ -3540,7 +3540,7 @@
 }
 
 .el-picker-panel {
-    color: #dadee6;
+    color: #e6e9ef;
     border: 1px solid #e4e7ed;
     box-shadow: 0 2px 12px 0 rgba(0, 0, 0, .1);
     background: #202644;
@@ -3582,7 +3582,7 @@
     background-color: transparent;
     line-height: 28px;
     font-size: 14px;
-    color: #dadee6;
+    color: #e6e9ef;
     padding-left: 12px;
     text-align: left;
     outline: 0;
@@ -3617,7 +3617,7 @@
 
 .el-picker-panel__icon-btn {
     font-size: 12px;
-    color: #303133;
+    color: #e6e9ef;
     border: 0;
     background: 0 0;
     cursor: pointer;
@@ -3746,7 +3746,7 @@
     height: 32px;
     line-height: 32px;
     font-size: 12px;
-    color: #dadee6
+    color: #e6e9ef
 }
 
 .el-time-spinner__item:hover:not(.disabled):not(.active) {
@@ -3755,7 +3755,7 @@
 }
 
 .el-time-spinner__item.active:not(.disabled) {
-    color: #303133;
+    color: #e6e9ef;
     font-weight: 700
 }
 
@@ -3841,7 +3841,7 @@
     background-color: transparent;
     outline: 0;
     font-size: 12px;
-    color: #303133
+    color: #e6e9ef
 }
 
 .el-time-panel__btn.confirm {
@@ -3887,7 +3887,7 @@
     border: 1px solid #3b4471;
     padding: 12px;
     z-index: 2000;
-    color: #dadee6;
+    color: #e6e9ef;
     line-height: 1.4;
     text-align: justify;
     font-size: 14px;
@@ -3899,7 +3899,7 @@
 }
 
 .el-popover__title {
-    color: #303133;
+    color: #e6e9ef;
     font-size: 16px;
     line-height: 1;
     margin-bottom: 12px
@@ -3985,7 +3985,7 @@
     margin-bottom: 0;
     font-size: 18px;
     line-height: 1;
-    color: #303133
+    color: #e6e9ef
 }
 
 .el-message-box__headerbtn {
@@ -4021,7 +4021,7 @@
 .el-message-box__content {
     position: relative;
     padding: 10px 15px;
-    color: #dadee6;
+    color: #e6e9ef;
     font-size: 14px
 }
 
@@ -4231,7 +4231,7 @@
 }
 
 .el-breadcrumb__inner {
-    color: #dadee6
+    color: #e6e9ef
 }
 
 .el-breadcrumb__inner a,
@@ -4240,7 +4240,7 @@
     text-decoration: none;
     -webkit-transition: color .2s cubic-bezier(.645, .045, .355, 1);
     transition: color .2s cubic-bezier(.645, .045, .355, 1);
-    color: #303133
+    color: #e6e9ef
 }
 
 .el-breadcrumb__inner a:hover,
@@ -4254,7 +4254,7 @@
 .el-breadcrumb__item:last-child .el-breadcrumb__inner a:hover,
 .el-breadcrumb__item:last-child .el-breadcrumb__inner:hover {
     font-weight: 400;
-    color: #dadee6;
+    color: #e6e9ef;
     cursor: text
 }
 
@@ -4353,7 +4353,7 @@
     text-align: right;
     float: left;
     font-size: 14px;
-    color: #dadee6;
+    color: #e6e9ef;
     line-height: 40px;
     padding: 0 12px 0 0;
     -webkit-box-sizing: border-box;
@@ -4544,7 +4544,7 @@
     list-style: none;
     font-size: 14px;
     font-weight: 500;
-    color: #303133;
+    color: #e6e9ef;
     position: relative
 }
 
@@ -5309,7 +5309,7 @@
     position: relative;
     cursor: default;
     background: #202644;
-    color: #dadee6
+    color: #e6e9ef
 }
 
 .el-tree__empty-block {
@@ -5578,7 +5578,7 @@
 .el-notification__title {
     font-weight: 700;
     font-size: 16px;
-    color: #303133;
+    color: #e6e9ef;
     margin: 0
 }
 
@@ -5586,7 +5586,7 @@
     font-size: 14px;
     line-height: 21px;
     margin: 6px 0 0;
-    color: #dadee6;
+    color: #e6e9ef;
     text-align: justify
 }
 
@@ -5610,7 +5610,7 @@
 }
 
 .el-notification__closeBtn:hover {
-    color: #dadee6
+    color: #e6e9ef
 }
 
 .el-notification .el-icon-success {
@@ -5668,7 +5668,7 @@
     height: auto;
     text-align: center;
     background: #f5f7fa;
-    color: #dadee6;
+    color: #e6e9ef;
     cursor: pointer;
     font-size: 13px
 }
@@ -5869,14 +5869,14 @@
 
 .el-tooltip__popper[x-placement^=top] .popper__arrow {
     bottom: -6px;
-    border-top-color: #303133;
+    border-top-color: #e6e9ef;
     border-bottom-width: 0
 }
 
 .el-tooltip__popper[x-placement^=top] .popper__arrow::after {
     bottom: 1px;
     margin-left: -5px;
-    border-top-color: #303133;
+    border-top-color: #e6e9ef;
     border-bottom-width: 0
 }
 
@@ -5887,14 +5887,14 @@
 .el-tooltip__popper[x-placement^=bottom] .popper__arrow {
     top: -6px;
     border-top-width: 0;
-    border-bottom-color: #303133
+    border-bottom-color: #e6e9ef
 }
 
 .el-tooltip__popper[x-placement^=bottom] .popper__arrow::after {
     top: 1px;
     margin-left: -5px;
     border-top-width: 0;
-    border-bottom-color: #303133
+    border-bottom-color: #e6e9ef
 }
 
 .el-tooltip__popper[x-placement^=right] {
@@ -5903,14 +5903,14 @@
 
 .el-tooltip__popper[x-placement^=right] .popper__arrow {
     left: -6px;
-    border-right-color: #303133;
+    border-right-color: #e6e9ef;
     border-left-width: 0
 }
 
 .el-tooltip__popper[x-placement^=right] .popper__arrow::after {
     bottom: -5px;
     left: 1px;
-    border-right-color: #303133;
+    border-right-color: #e6e9ef;
     border-left-width: 0
 }
 
@@ -5921,7 +5921,7 @@
 .el-tooltip__popper[x-placement^=left] .popper__arrow {
     right: -6px;
     border-right-width: 0;
-    border-left-color: #303133
+    border-left-color: #e6e9ef
 }
 
 .el-tooltip__popper[x-placement^=left] .popper__arrow::after {
@@ -5929,21 +5929,21 @@
     bottom: -5px;
     margin-left: -5px;
     border-right-width: 0;
-    border-left-color: #303133
+    border-left-color: #e6e9ef
 }
 
 .el-tooltip__popper.is-dark {
-    background: #303133;
+    background: #e6e9ef;
     color: #202644
 }
 
 .el-tooltip__popper.is-light {
     background: #202644;
-    border: 1px solid #303133
+    border: 1px solid #e6e9ef
 }
 
 .el-tooltip__popper.is-light[x-placement^=top] .popper__arrow {
-    border-top-color: #303133
+    border-top-color: #e6e9ef
 }
 
 .el-tooltip__popper.is-light[x-placement^=top] .popper__arrow::after {
@@ -5951,7 +5951,7 @@
 }
 
 .el-tooltip__popper.is-light[x-placement^=bottom] .popper__arrow {
-    border-bottom-color: #303133
+    border-bottom-color: #e6e9ef
 }
 
 .el-tooltip__popper.is-light[x-placement^=bottom] .popper__arrow::after {
@@ -5959,7 +5959,7 @@
 }
 
 .el-tooltip__popper.is-light[x-placement^=left] .popper__arrow {
-    border-left-color: #303133
+    border-left-color: #e6e9ef
 }
 
 .el-tooltip__popper.is-light[x-placement^=left] .popper__arrow::after {
@@ -5967,7 +5967,7 @@
 }
 
 .el-tooltip__popper.is-light[x-placement^=right] .popper__arrow {
-    border-right-color: #303133
+    border-right-color: #e6e9ef
 }
 
 .el-tooltip__popper.is-light[x-placement^=right] .popper__arrow::after {
@@ -8653,7 +8653,7 @@
 
 .el-upload__tip {
     font-size: 12px;
-    color: #dadee6;
+    color: #e6e9ef;
     margin-top: 7px
 }
 
@@ -8722,7 +8722,7 @@
 }
 
 .el-upload-dragger .el-upload__text {
-    color: #dadee6;
+    color: #e6e9ef;
     font-size: 14px;
     text-align: center
 }
@@ -8751,7 +8751,7 @@
     -webkit-transition: all .5s cubic-bezier(.55, 0, .1, 1);
     transition: all .5s cubic-bezier(.55, 0, .1, 1);
     font-size: 14px;
-    color: #dadee6;
+    color: #e6e9ef;
     line-height: 1.8;
     margin-top: 5px;
     position: relative;
@@ -8793,7 +8793,7 @@
     right: 5px;
     cursor: pointer;
     opacity: .75;
-    color: #dadee6
+    color: #e6e9ef
 }
 
 .el-upload-list__item .el-icon-close:hover {
@@ -8849,7 +8849,7 @@
 }
 
 .el-upload-list__item-name {
-    color: #dadee6;
+    color: #e6e9ef;
     display: block;
     margin-right: 40px;
     overflow: hidden;
@@ -8880,7 +8880,7 @@
     right: 10px;
     top: 0;
     font-size: 12px;
-    color: #dadee6;
+    color: #e6e9ef;
     display: none
 }
 
@@ -9229,7 +9229,7 @@
     margin: 0;
     line-height: 36px;
     font-size: 14px;
-    color: #303133
+    color: #e6e9ef
 }
 
 .el-upload-cover+.el-upload__inner {
@@ -9245,7 +9245,7 @@
 
 .el-progress__text {
     font-size: 14px;
-    color: #dadee6;
+    color: #e6e9ef;
     display: inline-block;
     vertical-align: middle;
     margin-left: 10px;
@@ -9723,8 +9723,8 @@
 }
 
 .el-step__head.is-process {
-    color: #303133;
-    border-color: #303133
+    color: #e6e9ef;
+    border-color: #e6e9ef
 }
 
 .el-step__head.is-wait {
@@ -9836,7 +9836,7 @@
 
 .el-step__title.is-process {
     font-weight: 700;
-    color: #303133
+    color: #e6e9ef
 }
 
 .el-step__title.is-wait {
@@ -9864,7 +9864,7 @@
 }
 
 .el-step__description.is-process {
-    color: #303133
+    color: #e6e9ef
 }
 
 .el-step__description.is-wait {
@@ -10319,7 +10319,7 @@
 .el-collapse-item__header {
     height: 48px;
     line-height: 48px;
-    color: #303133;
+    color: #e6e9ef;
     cursor: pointer;
     border-bottom: 1px solid #3b4471;
     font-size: 13px;
@@ -10364,7 +10364,7 @@
 .el-collapse-item__content {
     padding-bottom: 25px;
     font-size: 13px;
-    color: #303133;
+    color: #e6e9ef;
     line-height: 1.769230769230769
 }
 
@@ -10521,7 +10521,7 @@
     top: 0;
     height: 100%;
     padding: 0 25px 0 15px;
-    color: #dadee6;
+    color: #e6e9ef;
     width: 100%;
     white-space: nowrap;
     text-overflow: ellipsis;
@@ -10593,7 +10593,7 @@
     white-space: nowrap;
     overflow: hidden;
     text-overflow: ellipsis;
-    color: #dadee6;
+    color: #e6e9ef;
     height: 34px;
     line-height: 1.5;
     -webkit-box-sizing: border-box;
@@ -11064,7 +11064,7 @@
     box-sizing: border-box;
     width: 100%;
     font-size: inherit;
-    color: #dadee6;
+    color: #e6e9ef;
     background-color: #202644;
     background-image: none;
     border: 1px solid #dcdfe6;
@@ -11169,7 +11169,7 @@
     border: 1px solid #dcdfe6;
     -webkit-box-sizing: border-box;
     box-sizing: border-box;
-    color: #dadee6;
+    color: #e6e9ef;
     display: inline-block;
     font-size: inherit;
     height: 40px;
@@ -11413,7 +11413,7 @@
     line-height: 1;
     white-space: nowrap;
     cursor: pointer;
-	background: #4b5373;
+    background: #4b5373;
     border: 1px solid #202644;
     color: #dbdee6;
     -webkit-appearance: none;
@@ -12010,7 +12010,7 @@
 }
 
 .el-checkbox {
-    color: #dadee6;
+    color: #e6e9ef;
     font-size: 14px;
     cursor: pointer;
     user-select: none
@@ -12256,7 +12256,7 @@
     background: #202644;
     border: 1px solid #dcdfe6;
     border-left: 0;
-    color: #dadee6;
+    color: #e6e9ef;
     -webkit-appearance: none;
     text-align: center;
     -webkit-box-sizing: border-box;
@@ -12466,7 +12466,7 @@
 }
 
 .el-transfer-panel__item.el-checkbox {
-    color: #dadee6
+    color: #e6e9ef
 }
 
 .el-transfer-panel__item:hover {
@@ -12543,7 +12543,7 @@
 
 .el-transfer-panel .el-transfer-panel__header .el-checkbox .el-checkbox__label {
     font-size: 16px;
-    color: #303133;
+    color: #e6e9ef;
     font-weight: 400
 }
 
@@ -12577,7 +12577,7 @@
 
 .el-transfer-panel .el-transfer-panel__footer .el-checkbox {
     padding-left: 20px;
-    color: #dadee6
+    color: #e6e9ef
 }
 
 .el-transfer-panel .el-transfer-panel__empty {
