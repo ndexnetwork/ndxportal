@@ -78,13 +78,13 @@
                     </el-table-column>
                     <el-table-column
                             label="Total Transfers"
-                            width="180">
+                            width="160">
                         <template slot-scope="scope">
                             {{$g.wallet.amount(scope.row.totalAmountNQT)}}
                         </template>
                     </el-table-column>
                     <el-table-column
-                            label="Transaction Fee"
+                            label="Tx Fee"
                             width="120">
                         <template slot-scope="scope">
                             {{$g.wallet.amount(scope.row.totalFeeNQT)}}
@@ -92,8 +92,8 @@
                     </el-table-column>
                     <el-table-column
                             prop="transactions.length"
-                            label="Number of Transactions"
-                            width="80">
+                            label="No of Tx"
+                            width="100">
                     </el-table-column>
                     <el-table-column
                             prop="generatorRS"

@@ -11,29 +11,29 @@
                     <span>{{accounts.accountRS}}</span>
                 </div>
 
-                <el-form  size="mini"  label-width="100px" >
+                <el-form  size="mini"  label-width="120px" >
                     <el-form-item label="Account ID">
                         {{accounts.account}}
                     </el-form-item>
-                    <el-form-item v-if="accounts.name" label="Account Name">
+                    <el-form-item v-if="accounts.name" label="Name">
                         {{accounts.name}}
                     </el-form-item>
-                    <el-form-item label="Account Address">
+                    <el-form-item label="Address">
                         {{accounts.accountRS}}
                     </el-form-item>
-                    <el-form-item label="Account Public Key">
+                    <el-form-item label="Public Key">
                         {{accounts.publicKey}}
                     </el-form-item>
-                    <el-form-item label="Account Balance">
+                    <el-form-item label="Balance">
                         {{$g.wallet.amount(accounts.balanceNQT)}}
                     </el-form-item>
-                    <el-form-item label="Forging Quantity">
+                    <el-form-item label="Forging Qty">
                         {{$g.wallet.amount(lessorsSum)}}
                     </el-form-item>
-                    <el-form-item label="Forging Revenue">
+                    <el-form-item label="Revenue">
                         {{$g.wallet.amount(accounts.forgedBalanceNQT)}}
                     </el-form-item>
-                    <el-form-item v-if="accounts.description&&accounts.description!=''" label="Account Description">
+                    <el-form-item v-if="accounts.description&&accounts.description!=''" label="Description">
                         {{accounts.description}}
                     </el-form-item>
                 </el-form>
@@ -79,7 +79,7 @@
                             </el-form-item>
                         </el-form>
                     </el-collapse-item>
-                    <el-collapse-item title="Transaction Information List" name="2">
+                    <el-collapse-item title="More Transaction Information List" name="2">
                         <el-table v-loading="transactionsing" :data="transactions" border style="width: 100%">
                             <el-table-column
                                     label="id"
@@ -96,7 +96,7 @@
                                         <el-button type="text"> {{scope.row.senderRS}}</el-button>
                                     </router-link>
                                     <div v-if="scope.row.senderRS==account">
-                                       This Account
+                                       {{accounts.accountRS}}
                                     </div>
                                 </template>
                             </el-table-column>
@@ -108,7 +108,7 @@
                                         <el-button type="text"> {{scope.row.recipientRS}}</el-button>
                                     </router-link>
                                     <div v-if="scope.row.recipientRS==account">
-                                        This Account
+                                        {{accounts.accountRS}}
                                     </div>
                                 </template>
                             </el-table-column>

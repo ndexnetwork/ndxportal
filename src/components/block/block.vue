@@ -9,12 +9,12 @@
             </el-breadcrumb>
             <el-card  v-loading="loading" class="box-card center" style="margin-top: 16px">
                 <div slot="header" class="clearfix">
-                    <span>{{height}}</span>
+                    <span>Block {{height}}</span>
                     <el-button @click="update(0)" style="float: right; padding: 3px 0" type="text">Next Block</el-button>
                     <el-button @click="update(1)" style="float: right; padding: 3px 0;margin-right: 20px" type="text">Prev Block</el-button>
                 </div>
 
-                <el-form  size="mini"  label-width="100px" >
+                <el-form  size="mini"  label-width="120px" >
                     <el-form-item label="Block ID">
                         {{Blocks.block}}
                     </el-form-item>
@@ -29,19 +29,19 @@
                             <el-button style="font-size: 14px" type="text"> {{Blocks.generatorRS}}</el-button>
                         </router-link>
                     </el-form-item>
-                    <el-form-item label="Number of Block Transactions">
+                    <el-form-item label="No of Block Tx">
                         {{Blocks.transactions.length}}
                     </el-form-item>
                     <el-form-item label="Total Transfers">
                         {{$g.wallet.amount(Blocks.totalAmountNQT)}}
                     </el-form-item>
-                    <el-form-item label="Block Transaction Fee">
+                    <el-form-item label="Block Tx Fee">
                         {{$g.wallet.amount(Blocks.totalFeeNQT)}}
                     </el-form-item>
                 </el-form>
 
                 <el-collapse v-model="activeNames">
-                    <el-collapse-item title="Transaction Information List" name="1">
+                    <el-collapse-item title="More Transaction Information List" name="1">
                         <el-table
                                 :data="Blocks.transactions"
                                 border
