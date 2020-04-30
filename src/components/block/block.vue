@@ -83,7 +83,7 @@
                 </el-collapse>
             </el-card>
         </el-main>
-        <el-footer class="footer">
+        <el-footer class="footer" style="height: 40px; padding-top: 7px;">
             COPYRIGHT © 2018-2020. ALL RIGHTS RESERVED. DESIGNED BY
             <a target="_blank" href="https://ndexnetwork.com/">nDEX Network Ltd.</a>
         </el-footer>

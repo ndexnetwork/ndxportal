@@ -195,7 +195,7 @@ a {
     font-size: 12px;
 }
 .footer {
-    background: #13182d;
+    background: #ffffff;
     line-height: normal;
     text-align: center;
     font-size: 14px;
